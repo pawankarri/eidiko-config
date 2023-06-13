@@ -1,3 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.2.47:3306/eidiko_emp_portal
+    username: eidiko
+    password: eidiko@123
+  jpa:
+    properties:
+      hibernate:
+      format-sql: true
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
 eureka:
   instance:
     prefer-ip-address: true
